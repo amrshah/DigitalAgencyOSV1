@@ -1,13 +1,12 @@
 <?php
 /**
  * Plugin Name: SAM AI Command Center
- * Plugin URI: https://github.com/yourusername/sam-ai-command-center
+ * Plugin URI: https://github.com/amrshah/sam-ai-command-center
  * Description: Marketing data assistant connecting Google Ads, GA4, WordPress, and AI models (Gemini/GPT) for campaign insights.
  * Version: 1.0.0
  * Author: Amrshah
- * Author URI: https://yourwebsite.com
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Author URI: https://github.com/amrshah
+ * License: Private License
  * Text Domain: sam-ai-cc
  * Requires at least: 6.0
  * Requires PHP: 8.0
