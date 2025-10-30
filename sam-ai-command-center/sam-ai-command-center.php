@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/yourusername/sam-ai-command-center
  * Description: Marketing data assistant connecting Google Ads, GA4, WordPress, and AI models (Gemini/GPT) for campaign insights.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Amrshah
  * Author URI: https://yourwebsite.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
