@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/amrshah/sam-seo-plugin
  * Description: SEO Plugin for WP
  * Version: 1.0.0
- * Author: Amrshah
+ * Author: Ali Raza
  * Author URI: https://github.com/amrshah
  * License: Private License
  * Text Domain: sam-seo-plugin
