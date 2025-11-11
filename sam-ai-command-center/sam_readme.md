@@ -10,7 +10,7 @@ A powerful WordPress plugin that connects Google Ads, Google Analytics 4, WordPr
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Features](#features)
 2. [Installation](#installation)
@@ -23,7 +23,7 @@ A powerful WordPress plugin that connects Google Ads, Google Analytics 4, WordPr
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 - **Natural Language Queries**: Ask questions in plain English about your marketing performance
@@ -48,7 +48,7 @@ A powerful WordPress plugin that connects Google Ads, Google Analytics 4, WordPr
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Method 1: Manual Installation
 
@@ -73,7 +73,7 @@ After activation, the plugin will:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### 1. Google Ads API Setup
 
@@ -195,7 +195,7 @@ After activation, the plugin will:
 
 ---
 
-## 💡 Usage
+## Usage
 
 ### Basic Query
 
@@ -234,7 +234,7 @@ Your last 10 queries are saved in the sidebar. Click any to rerun it.
 
 ---
 
-## 💰 API Cost Estimation
+## API Cost Estimation
 
 ### Google Gemini
 
@@ -269,7 +269,7 @@ Your last 10 queries are saved in the sidebar. Click any to rerun it.
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -321,7 +321,7 @@ If results seem outdated:
 
 ---
 
-## 👨‍💻 Developer Guide
+## Developer Guide
 
 ### Extending the Plugin
 
@@ -400,7 +400,7 @@ CREATE TABLE wp_sam_ai_cache (
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 ### Version 1.0.0 (2024-10-30)
 
@@ -421,7 +421,7 @@ CREATE TABLE wp_sam_ai_cache (
 
 ---
 
-## 📄 License
+## License
 
 This plugin is licensed under the GPL v2 or later.
 
@@ -441,7 +441,7 @@ GNU General Public License for more details.
 
 ---
 
-## 🤝 Support
+## Support
 
 For issues, questions, or feature requests:
 - Create an issue on GitHub
@@ -450,7 +450,7 @@ For issues, questions, or feature requests:
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - Google Ads API
 - Google Analytics 4 Data API
