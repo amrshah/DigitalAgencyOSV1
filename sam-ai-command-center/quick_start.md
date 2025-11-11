@@ -1,6 +1,6 @@
 # SAM AI Command Center - Quick Start Guide
 
-## ⚡ 5-Minute Setup
+## 5-Minute Setup
 
 ### Step 1: Get the Files (2 minutes)
 
@@ -64,7 +64,7 @@ Compress-Archive -Path sam-ai-command-center -DestinationPath sam-ai-command-cen
 
 ---
 
-## 🎯 Minimal Working Setup
+## Minimal Working Setup
 
 You can start using the plugin with **just one API key**:
 
@@ -82,7 +82,7 @@ You can start using the plugin with **just one API key**:
 
 ---
 
-## 🚀 Full Setup (When Ready)
+## Full Setup (When Ready)
 
 Add these for real data:
 
@@ -97,7 +97,7 @@ Add these for real data:
 
 ---
 
-## ✅ Verify Installation
+## Verify Installation
 
 ### Check 1: Menu Item
 - Look for **SAM AI CC** in WordPress admin sidebar
@@ -122,7 +122,7 @@ SHOW TABLES LIKE '%sam_ai_cache%';
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "Plugin could not be activated"
 - **Fix**: Check PHP version (must be 8.0+)
@@ -150,7 +150,7 @@ SHOW TABLES LIKE '%sam_ai_cache%';
 
 ---
 
-## 💡 First Query Examples
+## First Query Examples
 
 Try these with mock data (no API keys needed):
 
@@ -185,7 +185,7 @@ Try these with mock data (no API keys needed):
 
 ---
 
-## 🎓 Learning Path
+## Learning Path
 
 ### Week 1: Test with Mock Data
 - Get familiar with the interface
@@ -206,7 +206,7 @@ Try these with mock data (no API keys needed):
 
 ---
 
-## 📞 Need Help?
+## Need Help?
 
 1. **Check README.md** - Comprehensive guide
 2. **Check Logs** - `logs/queries.log`
@@ -215,7 +215,7 @@ Try these with mock data (no API keys needed):
 
 ---
 
-## 🎉 Success Checklist
+## Success Checklist
 
 - [ ] Plugin activated without errors
 - [ ] "SAM AI CC" menu appears
@@ -230,7 +230,7 @@ Try these with mock data (no API keys needed):
 
 ---
 
-## ⏱️ Time Estimates
+## Time Estimates
 
 | Task | Time | Difficulty |
 |------|------|------------|
@@ -247,4 +247,4 @@ Try these with mock data (no API keys needed):
 
 ---
 
-**🎯 Bottom Line**: You can have the plugin running with AI-powered insights in under 30 minutes, even without any marketing APIs configured!
+** Bottom Line**: You can have the plugin running with AI-powered insights in under 30 minutes, even without any marketing APIs configured!
