@@ -170,7 +170,19 @@ class SAM_AI_Command_Center {
             30
         );
         
-        add_submenu_page(
+        
+		
+add_submenu_page(
+    'sam-ai-command-center',
+    'Client Analytics',
+    'Client Analytics',
+    'manage_options',
+    'sam-ai-client-analytics',
+    [$this, 'render_sam_ai_client_analytics_view']
+);
+
+		//settings
+		add_submenu_page(
             'sam-ai-command-center',
             __('Settings', 'sam-ai-cc'),
             __('Settings', 'sam-ai-cc'),
@@ -178,33 +190,6 @@ class SAM_AI_Command_Center {
             'sam-ai-settings',
             [$this, 'render_settings_page']
         );
-//         add_menu_page(
-//     'SAM AI Command Center',
-//     'SAM AI CC',
-//     'manage_options',
-//     'sam-ai-dashboard',
-//     'sam_ai_dashboard_view',
-//     'dashicons-chart-area',
-//     2
-// );
-
-add_submenu_page(
-    'sam-ai-command-center',
-    'Client Analytics',
-    'Client Analytics',
-    'manage_options',
-    'sam-ai-client-analytics',
-    [$this, 'sam_ai_client_analytics_view']
-);
-
-// add_submenu_page(
-//     'sam-ai-dashboard',
-//     'Settings',
-//     'Settings',
-//     'manage_options',
-//     'sam-ai-settings',
-//     'sam_ai_settings_view'
-// );
 
 //help
 add_submenu_page(
@@ -215,14 +200,7 @@ add_submenu_page(
             'sam-ai-help',
             [$this, 'render_help_page']
         );
-// add_submenu_page(
-//     'sam-ai-dashboard',
-//     'Help',
-//     'Help',
-//     'manage_options',
-//     'sam-ai-help',
-//     'sam_ai_help_view'
-// );
+
 
     }
     
