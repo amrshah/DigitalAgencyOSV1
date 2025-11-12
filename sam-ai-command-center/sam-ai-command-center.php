@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: SAM AI Command Center
- * Plugin URI: https://github.com/amrshah/sam-ai-command-center
+ * Plugin URI: https://amrshah.github.io/
  * Description: Marketing data assistant connecting Google Ads, GA4, WordPress, and AI models (Gemini/GPT) for campaign insights.
  * Version: 1.0.0
- * Author: Amrshah
- * Author URI: https://github.com/amrshah
+ * Author: Ali Raza
+ * Author URI: https://amrshah.github.io/
  * License: Private License
  * Text Domain: sam-ai-cc
  * Requires at least: 6.0
@@ -178,33 +178,51 @@ class SAM_AI_Command_Center {
             'sam-ai-settings',
             [$this, 'render_settings_page']
         );
-        add_menu_page(
-    'SAM AI Command Center',
-    'SAM AI CC',
-    'manage_options',
-    'sam-ai-dashboard',
-    'sam_ai_dashboard_view',
-    'dashicons-chart-area',
-    2
-);
+//         add_menu_page(
+//     'SAM AI Command Center',
+//     'SAM AI CC',
+//     'manage_options',
+//     'sam-ai-dashboard',
+//     'sam_ai_dashboard_view',
+//     'dashicons-chart-area',
+//     2
+// );
 
 add_submenu_page(
-    'sam-ai-dashboard',
+    'sam-ai-command-center',
     'Client Analytics',
     'Client Analytics',
     'manage_options',
     'sam-ai-client-analytics',
-    'sam_ai_client_analytics_view'
+    [$this, 'sam_ai_client_analytics_view']
 );
 
+// add_submenu_page(
+//     'sam-ai-dashboard',
+//     'Settings',
+//     'Settings',
+//     'manage_options',
+//     'sam-ai-settings',
+//     'sam_ai_settings_view'
+// );
+
+//help
 add_submenu_page(
-    'sam-ai-dashboard',
-    'Settings',
-    'Settings',
-    'manage_options',
-    'sam-ai-settings',
-    'sam_ai_settings_view'
-);
+            'sam-ai-command-center',
+            __('Help', 'sam-ai-cc'),
+            __('Help', 'sam-ai-cc'),
+            'manage_options',
+            'sam-ai-help',
+            [$this, 'render_help_page']
+        );
+// add_submenu_page(
+//     'sam-ai-dashboard',
+//     'Help',
+//     'Help',
+//     'manage_options',
+//     'sam-ai-help',
+//     'sam_ai_help_view'
+// );
 
     }
     
@@ -253,6 +271,12 @@ add_submenu_page(
      */
     public function render_settings_page() {
         require_once SAM_AI_CC_PLUGIN_DIR . 'admin/settings-ui.php';
+    }
+    /**
+     * Render help page
+     */
+    public function render_help_page() {
+        require_once SAM_AI_CC_PLUGIN_DIR . 'admin/help-ui.php';
     }
     
     /**
